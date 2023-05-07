@@ -1,5 +1,5 @@
-import * as Fetchers from "./fetchers";
-import { getMyArticlesData, httpError } from "./fetchers/fixtures"
+import * as Fetchers from "../fetchers";
+import { getMyArticlesData, httpError } from "../fetchers/fixtures"
 
 const mockGetMyArticles = (status = 200) => {
 	if (status > 299) {
